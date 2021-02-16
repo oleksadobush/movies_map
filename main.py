@@ -8,10 +8,10 @@ from geopy.extra.rate_limiter import RateLimiter
 
 def finding_places_by_year(year):
     """
-
-    :param year:
-    :return:
-
+    Reads the file with locations and
+    finds all the places by year
+    :param year: integer, year
+    :return: list of lists of places
     """
     year_string = '(' + year + ')'
     places = []
@@ -29,8 +29,8 @@ def finding_places_by_year(year):
 
 def finding_coordinates(initial_point, places):
     """
-
-    :return:
+    Finds coordinates of places
+    :return: list of lists of places with coordinates
     """
     new_places = []
     geolocator = Nominatim(user_agent="Movies'_Places")
@@ -54,10 +54,10 @@ def finding_coordinates(initial_point, places):
 
 def calculating_distance(initial_point, final_point):
     """
-
-    :param initial_point:
-    :param final_point:
-    :return:
+    Calculates distance with longitude and latitude
+    :param initial_point: list of two coordinates
+    :param final_point: list of two coordinates
+    :return: distance, float number
     """
     radius = 6373.0
 
@@ -81,9 +81,9 @@ def calculating_distance(initial_point, final_point):
 
 def nearest_locations(places):
     """
-
-    :param places:
-    :return:
+    Filters all locations to the nearest 10
+    :param places: list of lists of locations
+    :return: list of nearest 10 locations to the point
     """
     new_places = []
     for place in places:
@@ -98,8 +98,7 @@ def nearest_locations(places):
 
 def main():
     """
-
-    :return:
+    Combines and runs all modules to generate a map with three layers
     """
     print("Please enter a year you would like to have a map for: ")
 
