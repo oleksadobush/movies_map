@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9088c2c745e4416cadb2a768163518c9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_9088c2c745e4416cadb2a768163518c9" ></div>
+        
+</body>
+<script>    
+    
+            var map_9088c2c745e4416cadb2a768163518c9 = L.map(
+                "map_9088c2c745e4416cadb2a768163518c9",
+                {
+                    center: [49.83826, 24.02324],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8a4fae3ab73145b18483b0bb4a7776b1 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_9088c2c745e4416cadb2a768163518c9);
+        
+    
+            var feature_group_306b28ff50894d12b8a5568d4d38ad2d = L.featureGroup(
+                {}
+            ).addTo(map_9088c2c745e4416cadb2a768163518c9);
+        
+    
+            var marker_5194573e32c249f48dc0a31dcb690cab = L.marker(
+                [41.0096334, 28.9651646],
+                {}
+            ).addTo(feature_group_306b28ff50894d12b8a5568d4d38ad2d);
+        
+    
+        var popup_300d11b53ff24adebf1f5ea7ae485ba1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_008355a443f745469c4c9ee708eca0ca = $(`<div id="html_008355a443f745469c4c9ee708eca0ca" style="width: 100.0%; height: 100.0%;">"A.G.A." (2003)</div>`)[0];
+            popup_300d11b53ff24adebf1f5ea7ae485ba1.setContent(html_008355a443f745469c4c9ee708eca0ca);
+        
+
+        marker_5194573e32c249f48dc0a31dcb690cab.bindPopup(popup_300d11b53ff24adebf1f5ea7ae485ba1)
+        ;
+
+        
+    
+    
+            var marker_2a86b57d4c0647e4aab93649f22b46cd = L.marker(
+                [52.5170365, 13.3888599],
+                {}
+            ).addTo(feature_group_306b28ff50894d12b8a5568d4d38ad2d);
+        
+    
+        var popup_c772214cb4294e218ef8c88ad63cf7f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_05fb970242e643f1a5d5a59f5e6d4037 = $(`<div id="html_05fb970242e643f1a5d5a59f5e6d4037" style="width: 100.0%; height: 100.0%;">"A-lien & B-lien" (2003)</div>`)[0];
+            popup_c772214cb4294e218ef8c88ad63cf7f9.setContent(html_05fb970242e643f1a5d5a59f5e6d4037);
+        
+
+        marker_2a86b57d4c0647e4aab93649f22b46cd.bindPopup(popup_c772214cb4294e218ef8c88ad63cf7f9)
+        ;
+
+        
+    
+    
+            var marker_78bd313fe5954f19bf1c3f338c187887 = L.marker(
+                [43.4586541, 11.1389204],
+                {}
+            ).addTo(feature_group_306b28ff50894d12b8a5568d4d38ad2d);
+        
+    
+        var popup_e1e230ebdfd94e7baab4ff0dc80240eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df983148da7b4834916f2789878947ea = $(`<div id="html_df983148da7b4834916f2789878947ea" style="width: 100.0%; height: 100.0%;">"A Year in Tuscany" (2003)</div>`)[0];
+            popup_e1e230ebdfd94e7baab4ff0dc80240eb.setContent(html_df983148da7b4834916f2789878947ea);
+        
+
+        marker_78bd313fe5954f19bf1c3f338c187887.bindPopup(popup_e1e230ebdfd94e7baab4ff0dc80240eb)
+        ;
+
+        
+    
+    
+            var marker_84e605df86a44cb2b3a7fd8409b07e59 = L.marker(
+                [56.5506035, 9.03259506450791],
+                {}
+            ).addTo(feature_group_306b28ff50894d12b8a5568d4d38ad2d);
+        
+    
+        var popup_6650e473b8e5498998990da225d1fb32 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2bbea38c875042c488c312288a6d934a = $(`<div id="html_2bbea38c875042c488c312288a6d934a" style="width: 100.0%; height: 100.0%;">"5. b" (2003)</div>`)[0];
+            popup_6650e473b8e5498998990da225d1fb32.setContent(html_2bbea38c875042c488c312288a6d934a);
+        
+
+        marker_84e605df86a44cb2b3a7fd8409b07e59.bindPopup(popup_6650e473b8e5498998990da225d1fb32)
+        ;
+
+        
+    
+    
+            var marker_3cba4e33facb41e4949ae310dce18f5d = L.marker(
+                [48.8566969, 2.3514616],
+                {}
+            ).addTo(feature_group_306b28ff50894d12b8a5568d4d38ad2d);
+        
+    
+        var popup_9cada1fea80641d5945c76bfe831aef0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a3455765a5e46fc9976df0a50778b6b = $(`<div id="html_6a3455765a5e46fc9976df0a50778b6b" style="width: 100.0%; height: 100.0%;">"20h10 pétantes" (2003)</div>`)[0];
+            popup_9cada1fea80641d5945c76bfe831aef0.setContent(html_6a3455765a5e46fc9976df0a50778b6b);
+        
+
+        marker_3cba4e33facb41e4949ae310dce18f5d.bindPopup(popup_9cada1fea80641d5945c76bfe831aef0)
+        ;
+
+        
+    
+    
+            var marker_93812d5b93af406da382d518e72161d2 = L.marker(
+                [48.8724928, 2.3100024],
+                {}
+            ).addTo(feature_group_306b28ff50894d12b8a5568d4d38ad2d);
+        
+    
+        var popup_9991cdc9031a4bc49528216a857bd613 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30f14eca7a3748ec943996941706a391 = $(`<div id="html_30f14eca7a3748ec943996941706a391" style="width: 100.0%; height: 100.0%;">"93 Faubourg Saint-Honoré" (2003)</div>`)[0];
+            popup_9991cdc9031a4bc49528216a857bd613.setContent(html_30f14eca7a3748ec943996941706a391);
+        
+
+        marker_93812d5b93af406da382d518e72161d2.bindPopup(popup_9991cdc9031a4bc49528216a857bd613)
+        ;
+
+        
+    
+    
+            var marker_0481a6cfe1ad493084e6de5047ed774a = L.marker(
+                [47.0805693, 2.398932],
+                {}
+            ).addTo(feature_group_306b28ff50894d12b8a5568d4d38ad2d);
+        
+    
+        var popup_5e136403cba34f77a1c9925d71e91662 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d75494900c60470897d1572832c3a637 = $(`<div id="html_d75494900c60470897d1572832c3a637" style="width: 100.0%; height: 100.0%;">"20h10 pétantes" (2003)</div>`)[0];
+            popup_5e136403cba34f77a1c9925d71e91662.setContent(html_d75494900c60470897d1572832c3a637);
+        
+
+        marker_0481a6cfe1ad493084e6de5047ed774a.bindPopup(popup_5e136403cba34f77a1c9925d71e91662)
+        ;
+
+        
+    
+    
+            var marker_a1fc131b9d834093a377ea8b714aeae6 = L.marker(
+                [47.0819348, 2.3982583],
+                {}
+            ).addTo(feature_group_306b28ff50894d12b8a5568d4d38ad2d);
+        
+    
+        var popup_01802798b9154845abae6a20af535052 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5552bc0ef97d43f49d34783e19c9ee0f = $(`<div id="html_5552bc0ef97d43f49d34783e19c9ee0f" style="width: 100.0%; height: 100.0%;">"20h10 pétantes" (2003)</div>`)[0];
+            popup_01802798b9154845abae6a20af535052.setContent(html_5552bc0ef97d43f49d34783e19c9ee0f);
+        
+
+        marker_a1fc131b9d834093a377ea8b714aeae6.bindPopup(popup_01802798b9154845abae6a20af535052)
+        ;
+
+        
+    
+    
+            var marker_e5015288dd754973ace11ce0319aa304 = L.marker(
+                [46.603354, 1.8883335],
+                {}
+            ).addTo(feature_group_306b28ff50894d12b8a5568d4d38ad2d);
+        
+    
+        var popup_11f22153404a4c5d8817eea5186d68cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d824431686848679b66269694dc1842 = $(`<div id="html_1d824431686848679b66269694dc1842" style="width: 100.0%; height: 100.0%;">"A World in Arms" (2003)</div>`)[0];
+            popup_11f22153404a4c5d8817eea5186d68cb.setContent(html_1d824431686848679b66269694dc1842);
+        
+
+        marker_e5015288dd754973ace11ce0319aa304.bindPopup(popup_11f22153404a4c5d8817eea5186d68cb)
+        ;
+
+        
+    
+    
+            var marker_fda4a9e5984845f7af7a8812e6e85f0e = L.marker(
+                [41.3667951, 2.0570346],
+                {}
+            ).addTo(feature_group_306b28ff50894d12b8a5568d4d38ad2d);
+        
+    
+        var popup_7404a33b3f0c4701a7c1b5811c714f1a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b0fec101c3dc4e28b620dc26386c4b85 = $(`<div id="html_b0fec101c3dc4e28b620dc26386c4b85" style="width: 100.0%; height: 100.0%;">"5 minuts més" (2003)</div>`)[0];
+            popup_7404a33b3f0c4701a7c1b5811c714f1a.setContent(html_b0fec101c3dc4e28b620dc26386c4b85);
+        
+
+        marker_fda4a9e5984845f7af7a8812e6e85f0e.bindPopup(popup_7404a33b3f0c4701a7c1b5811c714f1a)
+        ;
+
+        
+    
+    
+            var feature_group_4b2160c1943d4f9aad5e6f3f791e416a = L.featureGroup(
+                {}
+            ).addTo(map_9088c2c745e4416cadb2a768163518c9);
+        
+    
+            var poly_line_22620f6a3b444f129aab30482c1ac5b1 = L.polyline(
+                [[41.0096334, 28.9651646], [52.5170365, 13.3888599], [43.4586541, 11.1389204], [56.5506035, 9.03259506450791], [48.8566969, 2.3514616], [48.8724928, 2.3100024], [47.0805693, 2.398932], [47.0819348, 2.3982583], [46.603354, 1.8883335], [41.3667951, 2.0570346]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4b2160c1943d4f9aad5e6f3f791e416a);
+        
+    
+            var layer_control_9813a2a34118495eaa9810b53f77cd1c = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_8a4fae3ab73145b18483b0bb4a7776b1,
+                },
+                overlays :  {
+                    "Markers" : feature_group_306b28ff50894d12b8a5568d4d38ad2d,
+                    "Distance" : feature_group_4b2160c1943d4f9aad5e6f3f791e416a,
+                },
+            };
+            L.control.layers(
+                layer_control_9813a2a34118495eaa9810b53f77cd1c.base_layers,
+                layer_control_9813a2a34118495eaa9810b53f77cd1c.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_9088c2c745e4416cadb2a768163518c9);
+        
+</script>
